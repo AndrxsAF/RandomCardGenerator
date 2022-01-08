@@ -4,8 +4,10 @@ const cardIconTop = document.querySelector("#imgTop")
 const cardIconBtm = document.querySelector("#imgBtm")
 
 window.onload = function() {
-    let random = Math.round(Math.random() * 10)
-    let iconGenerator
+    let iconGenerator, random
+    do {
+        random = Math.round(Math.random() * 10)
+    } while (random == 0)
     do {
         iconGenerator = Math.floor(Math.random() * 10)
     } while (iconGenerator > 3)
