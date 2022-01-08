@@ -1,0 +1,40 @@
+.card {
+    width: 325px;
+    height: 520px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+}
+
+.fs-custom {
+    font-size: calc(5.375rem + 1.5vw);
+}
+
+.left-img {
+    padding: 25px;
+    height: 110px;
+    width: 110px;
+}
+
+.right-img {
+    padding: 25px;
+    height: 110px;
+    width: 110px;
+}
+
+.card-body{
+    height: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header-custom{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-footer-custom{
+    display: flex;
+    justify-content: flex-start;
+}
